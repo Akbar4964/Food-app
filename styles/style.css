@@ -61,31 +61,20 @@ li {
   background-color: #252836;
   padding: 24px 38px 0 10px;
   width: 100%;
-  overflow: auto;
-  height: 100vh;
-  mask-image: linear-gradient(to top, transparent, black),
-    linear-gradient(to left, transparent 17px, black 17px);
-  mask-size: 100% 20000px;
-  mask-position: left bottom;
-  -webkit-mask-image: linear-gradient(to top, transparent, black),
-    linear-gradient(to left, transparent 17px, black 17px);
-  -webkit-mask-size: 100% 20000px;
-  -webkit-mask-position: left bottom;
-  transition: mask-position 0.3s, -webkit-mask-position 0.3s;
 }
-.content::-webkit-scrollbar {
+.food::-webkit-scrollbar {
   width: 17px;
 }
-.content::-webkit-scrollbar-track {
+.food::-webkit-scrollbar-track {
   background: #252836;
 }
-.content::-webkit-scrollbar-thumb {
+.food::-webkit-scrollbar-thumb {
   background: #252836;
 }
-.content::-webkit-scrollbar-thumb {
+.food::-webkit-scrollbar-thumb {
   background: #1f1d2b;
 }
-.content::-webkit-scrollbar-thumb {
+.food::-webkit-scrollbar-thumb {
   background: #252836;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -245,6 +234,7 @@ li {
   margin-top: 68px;
   border-radius: 15px;
   position: relative;
+  cursor: pointer;
 }
 
 .card > a {
@@ -289,6 +279,17 @@ li {
   display: flex;
   flex-wrap: wrap;
   gap: 43px;
+  overflow: auto;
+  height: calc(100vh - 236px);
+  mask-image: linear-gradient(to top, transparent, black),
+    linear-gradient(to left, transparent 17px, black 17px);
+  mask-size: 100% 20000px;
+  mask-position: left bottom;
+  -webkit-mask-image: linear-gradient(to top, transparent, black),
+    linear-gradient(to left, transparent 17px, black 17px);
+  -webkit-mask-size: 100% 20000px;
+  -webkit-mask-position: left bottom;
+  transition: mask-position 0.3s, -webkit-mask-position 0.3s;
 }
 
 .payment {
@@ -556,7 +557,7 @@ li {
   border: 0;
 }
 
-.dis-btn{
+.dis-btn {
   padding-top: 24px;
   text-align: center;
 }
