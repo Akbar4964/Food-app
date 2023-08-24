@@ -184,8 +184,9 @@ li {
   align-items: center;
   justify-content: space-between;
 }
-
-.select {
+div.select {
+  width: 100px;
+  position: relative;
   margin-top: 34px;
   width: 100px;
   height: 56px;
@@ -195,9 +196,51 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #fff;
 }
 
-.select > select {
+div.p:before {
+  content: "▼";
+  position: absolute;
+  right: 6px;
+  top: 22px;
+  font-size: 9px;
+}
+div.select .hidden {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.1s;
+  background: #1f1d2b;
+  border: 1px solid #999;
+  z-index: 10;
+  width: 100%;
+}
+div.select:hover .hidden {
+  visibility: visible;
+  opacity: 1;
+  left: -150px;
+  padding: 15px 10px;
+  width: 150px;
+  border-radius: 15px;
+}
+div.select p:hover {
+  background: #000000;
+}
+
+/* .select {
+  margin-top: 34px;
+  width: 100px;
+  height: 56px;
+  border-radius: 8px;
+  border: 1px solid #393c49;
+  background: #1f1d2b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* .select > select {
   background-color: inherit;
   color: var(--white, #fff);
   font-family: Barlow;
@@ -207,7 +250,24 @@ li {
   line-height: 130%;
   border: 0;
   outline: 0;
+  width: 90%;
 }
+
+.select > select:hover .hidden {
+  visibility: visible;
+  opacity: 1;
+}
+
+.select > select.hidden {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.1s;
+  background: white;
+  border: 1px solid #999;
+  z-index: 10;
+  width: 100%;
+} */
 
 .dishes {
   color: #ea7c69;

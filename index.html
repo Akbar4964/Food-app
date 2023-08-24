@@ -103,12 +103,21 @@
         </nav>
         <div class="choose">
           <p class="choose-title">Choose Dishes</p>
-          <div class="select">
-            <select>
+          <!-- <div class="select">
+            <select class="hidden">
               <option value="Dine in">Dine In</option>
-              <option value="Dine in">Dine In</option>
-              <option value="Dine in">Dine In</option>
+              <option value="To Go">To Go</option>
+              <option value="Delivery">Delivery</option>
             </select>
+          </div> -->
+          <div class="select">
+            <p class="input">Dine In</p>
+            <input type="hidden" name="some_name_to_form" />
+            <div class="hidden">
+              <p value="id_1">Dine In</p>
+              <p value="id_2">To Go</p>
+              <p value="id_3">Delivery</p>
+            </div>
           </div>
         </div>
         <div class="food">
