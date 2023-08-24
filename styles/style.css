@@ -110,7 +110,7 @@ li {
 .content-search {
   width: 249px;
   display: flex;
-  padding: 20px 0;
+  padding: 14px 0;
   align-items: flex-start;
   gap: 8px;
   border-radius: 8px;
@@ -137,7 +137,7 @@ li {
 }
 
 .search-img {
-  margin-left: 14px;
+  margin-left: 20px;
 }
 
 /*  */
@@ -231,7 +231,8 @@ li {
   width: 192px;
   height: 226px;
   background-color: #1f1d2b;
-  margin-top: 68px;
+  margin-top: 50px;
+  margin-bottom: 10px;
   border-radius: 15px;
   position: relative;
   cursor: pointer;
@@ -316,11 +317,11 @@ li {
   font-style: normal;
   font-weight: 600;
   line-height: 140%;
-  padding: 12px;
+  padding: 7px 12px;
 }
 
 .buttons > a > button {
-  padding: 12px;
+  padding: 7px 12px;
   border: 0;
   color: var(--primary-color, #ea7c69);
   font-family: Barlow;
@@ -333,6 +334,7 @@ li {
   border: 1px solid var(--base-dark-line, #393c49);
   background: var(--base-dark-bg-2, #1f1d2b);
   margin-right: 12px;
+  cursor: pointer;
 }
 
 .buttons {
@@ -370,7 +372,7 @@ li {
 }
 
 .items-line {
-  border: 2px solid #393c49;
+  border: 1px solid #393c49;
   margin-top: 24px;
 }
 
@@ -422,6 +424,7 @@ li {
 }
 
 .item {
+  border-radius: 15px;
   padding-top: 24px;
   overflow: auto;
   height: 365px;
@@ -507,10 +510,13 @@ li {
   border-radius: 15px;
   border: 1px solid #ea7c69;
   background-color: inherit;
+  cursor: pointer;
 }
 
 .item-line {
   border: 1px solid #2d303e;
+  margin-top: 3px;
+  border-radius: 15px;
 }
 
 .discount {
@@ -555,6 +561,7 @@ li {
   font-weight: 600;
   line-height: 140%;
   border: 0;
+  cursor: pointer;
 }
 
 .dis-btn {
