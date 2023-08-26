@@ -187,9 +187,10 @@ li {
 div.select {
   width: 100px;
   position: relative;
-  margin-top: 34px;
+  margin-top: 24px;
+  margin-bottom: 10px;
   width: 100px;
-  height: 56px;
+  height: 50px;
   border-radius: 8px;
   border: 1px solid #393c49;
   background: #1f1d2b;
@@ -197,36 +198,53 @@ div.select {
   align-items: center;
   justify-content: center;
   color: #fff;
+  color: var(--white, #fff);
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  cursor: pointer;
 }
 
-div.p:before {
-  content: "▼";
+div.p::after {
+  content: "";
   position: absolute;
   right: 6px;
-  top: 22px;
+  top: 8px;
   font-size: 9px;
 }
 div.select .hidden {
+  width: 100%;
   position: absolute;
+  text-align: center;
   visibility: hidden;
   opacity: 0;
   transition: 0.1s;
-  background: #1f1d2b;
-  border: 1px solid #999;
+  border: 1px solid #393c49;
   z-index: 10;
-  width: 100%;
+  background: #1f1d2b;
 }
 div.select:hover .hidden {
   visibility: visible;
   opacity: 1;
-  left: -150px;
-  padding: 15px 10px;
-  width: 150px;
-  border-radius: 15px;
+  top: 53px;
+  padding: 15px 0;
+  width: 100px;
+  border-radius: 8px;
 }
-div.select p:hover {
+
+.hidden > p {
+  padding: 3px 0;
+  cursor: pointer;
+}
+.hidden > p:hover {
+  background-color: #2d303e;
+}
+/* div.select p:hover,
+div.select:hover {
   background: #000000;
-}
+} */
 
 /* .select {
   margin-top: 34px;
@@ -291,7 +309,7 @@ div.select p:hover {
   width: 192px;
   height: 226px;
   background-color: #1f1d2b;
-  margin-top: 50px;
+  margin-top: 68px;
   margin-bottom: 10px;
   border-radius: 15px;
   position: relative;
