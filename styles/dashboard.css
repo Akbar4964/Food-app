@@ -1,0 +1,235 @@
+.test {
+  width: 700px;
+}
+
+/* DASHBOARD */
+
+.dashboard {
+  padding: 24px;
+}
+
+.dashboard > h1 {
+  color: var(--white, #fff);
+  font-family: Barlow;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.dashboard > h2 {
+  color: var(--text-light, #abbbc2);
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.dashboard-line {
+  border: 1px solid #393c49;
+  width: 888px;
+  margin-top: 24px;
+}
+
+/* DASHBOARD-TOTAL */
+
+.totals {
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.total {
+  width: 239px;
+  padding: 16px 36px;
+  border-radius: 8px;
+  background: var(--base-dark-bg-2, #1f1d2b);
+}
+
+.total-statics {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.total-statics > p {
+  color: var(--accents-green, #50d1aa);
+  font-family: Barlow;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.total-price {
+  padding-top: 8px;
+  color: var(--white, #fff);
+  font-family: Barlow;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.total-text {
+  color: var(--text-light, #abbbc2);
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+/* DASHBOARD-ORDER */
+
+.order {
+  border-radius: 8px;
+  background: var(--base-dark-bg-2, #1f1d2b);
+  margin-top: 24px;
+  padding: 24px;
+}
+
+.filter > p {
+  color: var(--white, #fff);
+  font-family: Barlow;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filter > button {
+  border-radius: 8px;
+  border: 1px solid var(--base-dark-line, #393c49);
+  background: var(--base-dark-bg-2, #1f1d2b);
+  padding: 14px;
+  color: var(--white, #fff);
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.filter > button:hover {
+  background-image: linear-gradient(to left, rgb(7, 9, 103), rgb(82, 4, 4));
+}
+
+table {
+  margin-top: 16px;
+}
+
+table > thead > tr > th {
+  color: var(--white, #fff);
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+table > tbody > tr > td {
+  color: var(--text-lighter, #e0e6e9);
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+table > tbody > tr > td > button {
+  border-radius: 30px;
+  background: rgba(107, 226, 190, 0.24);
+  color: var(--accents-green, #50d1aa);
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  border: 0;
+  padding: 4px 12px;
+  margin-left: 70px;
+  cursor: pointer;
+}
+
+.btn1 {
+  border-radius: 30px;
+  background: rgba(146, 144, 254, 0.2);
+  color: #9290fe;
+}
+
+.btn2 {
+  border-radius: 30px;
+  background: rgba(255, 181, 114, 0.2);
+  color: #ffb572;
+}
+
+.try {
+  display: flex;
+  align-items: center;
+  gap: 190px;
+}
+
+.try2 {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  gap: 140px;
+}
+
+.table-line {
+  border: 1px solid #393c49;
+  margin-top: 16px;
+}
+
+.table-scroll {
+  overflow: auto;
+  height: 265px;
+  mask-image: linear-gradient(to top, transparent, black),
+    linear-gradient(to left, transparent 17px, black 17px);
+  mask-size: 100% 20000px;
+  mask-position: left bottom;
+  -webkit-mask-image: linear-gradient(to top, transparent, black),
+    linear-gradient(to left, transparent 17px, black 17px);
+  -webkit-mask-size: 100% 20000px;
+  -webkit-mask-position: left bottom;
+  transition: mask-position 0.3s, -webkit-mask-position 0.3s;
+}
+
+.table-scroll::-webkit-scrollbar {
+  width: 17px;
+}
+
+.table-scroll::-webkit-scrollbar-track {
+  background: #252836;
+}
+
+.table-scroll::-webkit-scrollbar-thumb {
+  background: #252836;
+}
+
+.table-scroll::-webkit-scrollbar-thumb {
+  background: #1f1d2b;
+}
+
+.table-scroll::-webkit-scrollbar-thumb {
+  background: #252836;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
