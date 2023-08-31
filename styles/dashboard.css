@@ -320,7 +320,7 @@ table > tbody > tr > td > button {
 
 .ordered2 {
   width: 372px;
-    background-color: #1f1d2b;
+  background-color: #1f1d2b;
   border-radius: 8px;
   margin-top: 7px;
   padding-bottom: 18px;
@@ -378,22 +378,47 @@ table > tbody > tr > td > button {
 
 .circle1 {
   border: 10px solid #65b0f6;
-  width: 185px;
-  height: 185px;
+  width: 170px;
+  height: 170px;
   border-radius: 50%;
   border-top-color: #393c49;
-  transform: rotate(-30deg);
+  transform: rotate(-45deg);
   position: relative;
 }
 
 .circle2 {
   border: 10px solid #ffb572;
-  width: 120px;
-  height: 120px;
+  width: 146px;
+  height: 146px;
   border-radius: 50%;
   border-top-color: #393c49;
-  transform: rotate(-30deg);
+  border-right-color: #393c49;
+  transform: rotate(-135deg);
   position: absolute;
-  right: 5px;
-  top: 30px;
+  right: 211px;
+  top: 522px;
+}
+
+.circle3 {
+  border: 10px solid #ff7ca3;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  border-top-color: #393c49;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 533px;
+  right: 220px;
+}
+
+.circle4 {
+  border: 10px solid #ff7ca3;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  border-top-color: #393c49;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 533px;
+  right: 220px;
 }
