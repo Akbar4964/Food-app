@@ -32,11 +32,10 @@ li {
 /* SIDEBAR */
 
 .sidebar {
-  width: 200px;
+  max-width: 100px;
   height: 100vh;
   background-color: #1f1d2b;
-  /* border-top-right-radius: 16px;
-  border-bottom-right-radius: 16px; */
+  padding: 0 20px;
 }
 
 .logo {
@@ -675,4 +674,8 @@ div.select:hover {
 .dis-btn {
   padding-top: 24px;
   text-align: center;
+}
+
+.dis-btn:hover {
+  display: none;
 }

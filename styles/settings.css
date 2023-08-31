@@ -85,7 +85,7 @@
 }
 
 .product-managment {
-  padding: 34px 24px 24px 24px;
+  padding: 34px 24px 0 24px;
   background-color: #1f1d2b;
   border-radius: 8px;
 }
@@ -131,9 +131,11 @@
 .product-add {
   padding-top: 24px;
   display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
   cursor: pointer;
   overflow: auto;
-  height: 330px;
+  height: 400px;
   mask-image: linear-gradient(to top, transparent, black),
     linear-gradient(to left, transparent 17px, black 17px);
   mask-size: 100% 20000px;
@@ -249,4 +251,51 @@
 
 .product-card > button > img {
   padding-right: 7px;
+}
+
+.product-change {
+  padding: 17px;
+}
+
+#btn1 {
+  width: 172px;
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid var(--Primary-Color, #ea7c69);
+  background-color: inherit;
+  color: var(--Primary-Color, #ea7c69);
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  cursor: pointer;
+}
+
+#btn2 {
+  width: 172px;
+  padding: 14px;
+  border-radius: 8px;
+  border: 0;
+  color: var(--base-bg, #fafafa);
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  cursor: pointer;
+  background-color: #ea7c69;
+  margin-left: 8px;
+}
+
+#btn1:active {
+  border: 0;
+  color: var(--base-bg, #fafafa);
+  background-color: #ea7c69;
+}
+
+#btn2:active {
+  border: 1px solid var(--Primary-Color, #ea7c69);
+  background-color: inherit;
+  color: var(--Primary-Color, #ea7c69)
 }
