@@ -329,7 +329,7 @@ table > tbody > tr > td > button {
 .ordered2 > div {
   display: flex;
   gap: 50px;
-  padding: 0 10px;
+  padding: 0 24px;
 }
 
 .ordered2 > div > p {
@@ -359,6 +359,24 @@ table > tbody > tr > td > button {
   background-color: #ff7ca3;
 }
 
+.circle-count{
+  padding: 30px 0;
+}
+
+.circle-div > h1 {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #ffb572;
+}
+
+.circle-div > h4 {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #65b0f6;
+}
+
 .circle-div > div > h1 {
   color: var(--white, #fff);
   font-family: Barlow;
@@ -369,12 +387,12 @@ table > tbody > tr > td > button {
 }
 
 .circle-div > div > h2 {
-  color: var(--white, #fff);
+  color: var(--text-light, #abbbc2);
   font-family: Barlow;
-  font-size: 14px;
+  font-size: 12px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 130%;
+  font-weight: 400;
+  line-height: 140%;
 }
 
 .circle1 {
@@ -396,7 +414,7 @@ table > tbody > tr > td > button {
   border-right-color: #393c49;
   transform: rotate(-135deg);
   position: absolute;
-  right: 221px;
+  right: 208px;
   top: 532px;
 }
 
@@ -409,7 +427,7 @@ table > tbody > tr > td > button {
   transform: rotate(-45deg);
   position: absolute;
   top: 541.5px;
-  right: 231.5px;
+  right: 218px;
 }
 
 .circle4 {
@@ -420,5 +438,5 @@ table > tbody > tr > td > button {
   transform: rotate(-45deg);
   position: absolute;
   top: 552px;
-  right: 242px;
+  right: 229px;
 }
