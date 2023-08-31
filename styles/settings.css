@@ -1,3 +1,4 @@
+/* SETTINGS */
 .settings {
   padding: 24px;
 }
@@ -71,4 +72,55 @@
   right: 0;
   top: 25px;
   border-radius: 8px;
+}
+
+/* PRODUCT */
+
+.product {
+  margin-top: 87px;
+  margin-bottom: 24px;
+  width: 100%;
+  padding-right: 24px;
+}
+
+.product-managment {
+  padding: 34px 24px 24px 24px;
+  background-color: #1f1d2b;
+  border-radius: 8px;
+}
+
+.filters > p {
+  color: var(--white, #fff);
+  font-family: Barlow;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filters > button {
+  border-radius: 8px;
+  border: 1px solid var(--base-dark-line, #393c49);
+  background: var(--base-dark-bg-2, #1f1d2b);
+  padding: 14px;
+  color: var(--white, #fff);
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.filters > button:hover {
+  background-color: #393c49;
 }
