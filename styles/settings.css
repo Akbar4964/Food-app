@@ -10,3 +10,29 @@
   font-weight: 600;
   line-height: 140%;
 }
+
+.settings-sidebar {
+  width: 275px;
+  padding: 24px;
+  border-radius: 8px;
+  background-color: #1f1d2b;
+  margin: 24px 0;
+}
+
+.settings-names > h1 {
+  color: var(--White, #fff);
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.settings-names > h2 {
+  color: var(--text-light, #abbbc2);
+  font-family: Barlow;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
