@@ -124,3 +124,39 @@
 .filters > button:hover {
   background-color: #393c49;
 }
+
+/* PRODUCT */
+
+.product-add {
+  padding-top: 24px;
+  display: flex;
+}
+
+.product-add-card {
+  width: 221px;
+  height: 299px;
+  border-radius: 8px;
+  border: 1px dashed var(--Primary-Color, #ea7c69);
+  background: var(--base-dark-bg-2, #1f1d2b);
+  padding-top: 9%;
+}
+
+.product-add-card > h2 {
+  color: var(--Primary-Color, #ea7c69);
+  text-align: center;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.product-add-card > h1 {
+  color: var(--Primary-Color, #ea7c69);
+  text-align: center;
+  font-family: Barlow;
+  font-size: 40px;
+  font-style: normal;
+  line-height: 140%;
+  font-weight: 100;
+}
