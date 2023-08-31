@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/payment.css" />
     <title>FOOD-APP</title>
   </head>
   <body>
@@ -17,13 +18,13 @@
       <!-- SIDEBAR -->
       <div class="sidebar">
         <div class="logo">
-          <a href="./index.html">
+          <a href="">
             <img src="./assets/svg/logo-sidebar.svg" alt="" />
           </a>
         </div>
         <ul class="menu">
           <li>
-            <a href="./index.html">
+            <a href="">
               <img
                 class="home-img"
                 src="./assets/svg/home-sidebar.svg"
@@ -37,7 +38,7 @@
             </a>
           </li>
           <li>
-            <a href="./dashboard.html">
+            <a href="">
               <img src="./assets/svg/dashboard-sidebar.svg" alt="" />
             </a>
           </li>
@@ -52,7 +53,7 @@
             </a>
           </li>
           <li>
-            <a href="./settingsproduct.html">
+            <a href="">
               <img src="./assets/svg/settings-sidebar.svg" alt="" />
             </a>
           </li>
@@ -91,7 +92,7 @@
           <ul class="navbar-menu">
             <div>
               <li>
-                <a href="./index.html" class="dishes"
+                <a href="" class="dishes"
                   >Hot Dishes
                   <div class="underline"></div>
                 </a>
@@ -203,125 +204,71 @@
       </div>
       <!-- PAYMENT -->
       <div class="payment">
-        <p class="orders">Orders #34562</p>
-        <!-- PAYMENT-BUTTONS -->
-        <div class="buttons">
-          <a href="./index.html"><button class="dine">Dine In</button></a>
-          <a href=""><button>To Go</button></a>
-          <a href=""><button>Delivery</button></a>
-        </div>
-        <!-- PAYMENT-ITEMS -->
-        <div class="items">
-          <p>Item</p>
-          <div class="cost">
-            <div>Qty</div>
-            <div class="cost-rice">Price</div>
-          </div>
-        </div>
+        <div class="payment-title">Payment</div>
+        <div class="payment-text">3 payment method available</div>
         <div class="items-line"></div>
-        <!-- PAYMENT-ITEM -->
-        <div class="item">
-          <div class="meal">
-            <div class="meal-food">
-              <img src="./assets/img/food1.png" alt="" />
+        <div class="payment-method">
+          <div class="payment-method-title">Payment Method</div>
+          <div class="payment-cash">
+            <button>
               <div>
-                <p class="meal-name">Spicy seasoned sea...</p>
-                <p class="meal-cost">$ 2.29</p>
+                <img src="./assets/svg/tick.svg" alt="" class="tick" />
               </div>
-            </div>
-            <div class="meal-price">
-              <button>2</button>
-              <p>$ 4,58</p>
-            </div>
-          </div>
-          <div class="comment">
-            <input placeholder="Order Note..." type="text" />
-            <button><img src="./assets/svg/delete.svg" alt="" /></button>
-          </div>
-          <div class="meal">
-            <div class="meal-food">
-              <img src="./assets/img/food2.png" alt="" />
+              <img src="./assets/svg/card.svg" alt="" />
+              <br />
+              Credit Card
+            </button>
+            <button>
               <div>
-                <p class="meal-name">Spicy seasoned sea...</p>
-                <p class="meal-cost">$ 2.29</p>
+                <img src="./assets/svg/tick.svg" alt="" class="tick" />
               </div>
-            </div>
-            <div class="meal-price">
-              <button>2</button>
-              <p>$ 4,58</p>
-            </div>
-          </div>
-          <div class="comment">
-            <input placeholder="Order Note..." type="text" />
-            <button><img src="./assets/svg/delete.svg" alt="" /></button>
-          </div>
-          <div class="meal">
-            <div class="meal-food">
-              <img src="./assets/img/food3.png" alt="" />
+              <img src="./assets/svg/Paypal.svg" alt="" />
+              <br />
+              PayPal
+            </button>
+            <button>
               <div>
-                <p class="meal-name">Spicy seasoned sea...</p>
-                <p class="meal-cost">$ 2.29</p>
+                <img src="./assets/svg/tick.svg" alt="" class="tick" />
               </div>
-            </div>
-            <div class="meal-price">
-              <button>2</button>
-              <p>$ 4,58</p>
-            </div>
+              <img src="./assets/svg/cash.svg" alt="" />
+              <br />
+              Cash
+            </button>
           </div>
-          <div class="comment">
-            <input placeholder="Order Note..." type="text" />
-            <button><img src="./assets/svg/delete.svg" alt="" /></button>
+          <div class="card-name">
+            <div class="card-names">Cardholder Name</div>
+            <input type="text" placeholder="Cardholder name..." />
           </div>
-          <div class="meal">
-            <div class="meal-food">
-              <img src="./assets/img/food4.png" alt="" />
-              <div>
-                <p class="meal-name">Spicy seasoned sea...</p>
-                <p class="meal-cost">$ 2.29</p>
-              </div>
-            </div>
-            <div class="meal-price">
-              <button>2</button>
-              <p>$ 4,58</p>
-            </div>
+          <div class="card-number">
+            <div class="card-names">Card Number</div>
+            <input type="number" placeholder="XXXX XXXX XXXX XXXX" />
           </div>
-          <div class="comment">
-            <input placeholder="Order Note..." type="text" />
-            <button><img src="./assets/svg/delete.svg" alt="" /></button>
-          </div>
-          <div class="meal">
-            <div class="meal-food">
-              <img src="./assets/img/food5.png" alt="" />
-              <div>
-                <p class="meal-name">Spicy seasoned sea...</p>
-                <p class="meal-cost">$ 2.29</p>
-              </div>
+          <div class="expiration-date">
+            <div class="card-date">
+              <div class="card-names">Expiration Date</div>
+              <input type="text" placeholder="00/0000" />
             </div>
-            <div class="meal-price">
-              <button>2</button>
-              <p>$ 4,58</p>
+            <div class="card-cvv">
+              <div class="card-names">CVV</div>
+              <input type="number" placeholder="⚪️ ⚪️ ⚪️" />
             </div>
           </div>
-          <div class="comment">
-            <input placeholder="Order Note..." type="text" />
-            <button><img src="./assets/svg/delete.svg" alt="" /></button>
+          <div class="items-line"></div>
+          <div class="expiration-date">
+            <div class="card-date">
+              <div class="card-names">Order Type</div>
+              <input type="text" placeholder="Dine In" />
+            </div>
+            <div class="card-cvv">
+              <div class="card-names">Table no.</div>
+              <input type="number" placeholder="Table №" />
+            </div>
           </div>
-        </div>
-        <div class="item-line"></div>
-        <!-- PAYMENT-DISCOUNT -->
-        <div class="discount">
-          <div class="discount-cost">
-            <p>Discount</p>
-            <div>$0</div>
-          </div>
-          <div class="discount-cost">
-            <p>Sub total</p>
-            <div>$ 21,03</div>
-          </div>
-          <div class="dis-btn">
-            <a href="./payment.html">
-              <button>Continue to Payment</button>
+          <div class="coniform">
+            <a href="./index.html">
+              <button id="btn1">Cancel</button>
             </a>
+            <button id="btn2">Confirm Payment</button>
           </div>
         </div>
       </div>

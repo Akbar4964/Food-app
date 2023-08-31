@@ -1,0 +1,215 @@
+.content {
+  opacity: 0.3;
+  background-color: black;
+}
+
+.sidebar {
+  opacity: 0.3;
+  background-color: black;
+}
+
+.payment-title {
+  color: var(--White, #fff);
+  font-family: Barlow;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  margin-top: 24px;
+}
+
+.payment-text {
+  color: var(--text-light, #abbbc2);
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.payment-method-title {
+  padding-top: 24px;
+  color: var(--White, #fff);
+  font-family: Barlow;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.payment-cash {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.payment-cash > button {
+  width: 101px;
+  height: 64px;
+  border-radius: 8px;
+  border: 1px solid var(--base-dark-line, #393c49);
+  background: var(--base-dark-bg-2, #1f1d2b);
+  position: relative;
+}
+
+.tick {
+  display: none;
+}
+
+.payment-cash > button {
+  color: var(--text-light, #abbbc2);
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  cursor: pointer;
+}
+
+.payment-cash > button:hover > div > .tick {
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.payment-cash > button:hover {
+  border-radius: 8px;
+  border: 1px solid var(--text-light, #abbbc2);
+  background: var(--base-dark-bg-1, #252836);
+}
+
+.payment-cash > button:hover {
+  color: var(--text-light, #fff);
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.card-name {
+  margin-top: 16px;
+}
+
+.card-names {
+  color: var(--White, #fff);
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  margin-bottom: 8px;
+}
+
+.card-name > input {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--base-dark-line, #393c49);
+  background: var(--base-form-bg, #2d303e);
+  padding: 14px 24px;
+  color: var(--text-lighter, #e0e6e9);
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  outline: 0;
+  cursor: pointer;
+}
+
+.card-number {
+  margin-top: 8px;
+}
+
+.card-number > input {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--base-dark-line, #393c49);
+  background: var(--base-form-bg, #2d303e);
+  padding: 14px 24px;
+  color: var(--text-lighter, #e0e6e9);
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  outline: 0;
+  cursor: pointer;
+}
+
+.expiration-date {
+  display: flex;
+  margin-top: 8px;
+  gap: 10px;
+}
+
+.card-date > input {
+  width: 90%;
+  border-radius: 8px;
+  border: 1px solid var(--base-dark-line, #393c49);
+  background: var(--base-form-bg, #2d303e);
+  padding: 14px 24px;
+  color: var(--text-lighter, #e0e6e9);
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  outline: 0;
+  cursor: pointer;
+}
+
+.card-cvv > input {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--base-dark-line, #393c49);
+  background: var(--base-form-bg, #2d303e);
+  padding: 14px 24px;
+  color: var(--text-lighter, #e0e6e9);
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  outline: 0;
+  cursor: pointer;
+}
+
+.coniform {
+  margin-top: 30px;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+}
+
+#btn1 {
+  width: 200px;
+  padding: 14px 24px;
+  border-radius: 8px;
+  border: 1px solid var(--Primary-Color, #ea7c69);
+  background-color: inherit;
+  color: var(--Primary-Color, #ea7c69);
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  cursor: pointer;
+}
+
+#btn2 {
+  width: 200px;
+  padding: 14px 24px;
+  border-radius: 8px;
+  border: 0;
+  background-color: #ea7c69;
+  color: #fff;
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  cursor: pointer;
+}

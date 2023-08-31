@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #252836;
-}
-
 .container {
   max-width: 1240px;
   padding: 0 20px;
@@ -27,6 +23,7 @@ li {
 
 .count {
   display: flex;
+  background-color: #252836;
 }
 
 /* SIDEBAR */
@@ -656,7 +653,7 @@ div.select:hover {
   line-height: 140%;
 }
 
-.dis-btn > button {
+.dis-btn > a > button {
   width: 361px;
   height: 48px;
   border-radius: 15px;
@@ -674,8 +671,4 @@ div.select:hover {
 .dis-btn {
   padding-top: 24px;
   text-align: center;
-}
-
-.dis-btn:hover {
-  display: none;
 }
