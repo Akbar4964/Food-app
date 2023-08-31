@@ -320,8 +320,7 @@ table > tbody > tr > td > button {
 
 .ordered2 {
   width: 372px;
-  height: auto;
-  background-color: #1f1d2b;
+    background-color: #1f1d2b;
   border-radius: 8px;
   margin-top: 7px;
   padding-bottom: 18px;
@@ -377,3 +376,24 @@ table > tbody > tr > td > button {
   line-height: 130%;
 }
 
+.circle1 {
+  border: 10px solid #65b0f6;
+  width: 185px;
+  height: 185px;
+  border-radius: 50%;
+  border-top-color: #393c49;
+  transform: rotate(-30deg);
+  position: relative;
+}
+
+.circle2 {
+  border: 10px solid #ffb572;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border-top-color: #393c49;
+  transform: rotate(-30deg);
+  position: absolute;
+  right: 5px;
+  top: 30px;
+}
