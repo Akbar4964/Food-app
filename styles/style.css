@@ -234,6 +234,17 @@ div.select {
   cursor: pointer;
 }
 
+.input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+div.select:hover > .input > img {
+  transition: 0.5s;
+  transform: rotate(180deg);
+}
+
 div.p::after {
   content: "";
   position: absolute;
@@ -245,22 +256,20 @@ div.p::after {
 div.select .hidden {
   width: 100%;
   position: absolute;
+  top: 53px;
   text-align: center;
-  visibility: hidden;
-  opacity: 0;
-  transition: 0.1s;
+  padding: 15px 0;
   border: 1px solid #393c49;
-  z-index: 10;
+  border-radius: 8px;
   background: #1f1d2b;
+  transition: 0.5s;
+  opacity: 0;
+  z-index: -1;
 }
 
 div.select:hover .hidden {
-  visibility: visible;
   opacity: 1;
-  top: 53px;
-  padding: 15px 0;
-  width: 100px;
-  border-radius: 8px;
+  z-index: 10;
 }
 
 .hidden > p {
