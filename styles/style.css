@@ -281,52 +281,6 @@ div.select:hover .hidden {
   background-color: #2d303e;
 }
 
-/* div.select p:hover,
-div.select:hover {
-  background: #000000;
-} */
-
-/* .select {
-  margin-top: 34px;
-  width: 100px;
-  height: 56px;
-  border-radius: 8px;
-  border: 1px solid #393c49;
-  background: #1f1d2b;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-
-/* .select > select {
-  background-color: inherit;
-  color: var(--white, #fff);
-  font-family: Barlow;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 130%;
-  border: 0;
-  outline: 0;
-  width: 90%;
-}
-
-.select > select:hover .hidden {
-  visibility: visible;
-  opacity: 1;
-}
-
-.select > select.hidden {
-  position: absolute;
-  visibility: hidden;
-  opacity: 0;
-  transition: 0.1s;
-  background: white;
-  border: 1px solid #999;
-  z-index: 10;
-  width: 100%;
-} */
-
 /* CONTENT-FOOD */
 
 .card {
