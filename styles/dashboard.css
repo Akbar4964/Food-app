@@ -320,6 +320,11 @@ table > tbody > tr > td > button {
   cursor: pointer;
 }
 
+.spicy-btn > button:hover{
+  color: #fff;
+  background-color: #ea7c69;
+}
+
 .ordered2 {
   width: 372px;
   background-color: #1f1d2b;
