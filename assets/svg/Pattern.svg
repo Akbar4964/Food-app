@@ -1,4 +1,4 @@
-<svg width="93" height="105" viewBox="0 0 93 105" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="93" height="105" border="3px solid red" viewBox="0 0 -100 105" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="Pattern">
 <path id="Rectangle 23" d="M0 24C0 17.3726 5.37258 12 12 12H92V92H12C5.37259 92 0 86.6274 0 80V24Z" fill="#252836"/>
 <path id="Rectangle 24" d="M88.5 8C92.5 4 92 0 92 0V12H80C80 12 84.5 12 88.5 8Z" fill="#252836"/>
