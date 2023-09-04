@@ -357,6 +357,7 @@ table > tbody > tr > td > button {
   display: flex;
   align-items: center;
   gap: 7px;
+  padding: 10px 0;
 }
 
 .circle-div > h3 {
@@ -364,10 +365,6 @@ table > tbody > tr > td > button {
   height: 18px;
   border-radius: 50%;
   background-color: #ff7ca3;
-}
-
-.circle-count{
-  padding: 30px 0;
 }
 
 .circle-div > h1 {
