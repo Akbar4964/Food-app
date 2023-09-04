@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-family: serif;
+}
+
 .container {
   max-width: 1240px;
   padding: 0 20px;
@@ -50,6 +54,20 @@ li {
   padding: 16px;
   border-radius: 10px;
   margin-top: 20px;
+}
+
+.home-img2 {
+  background-color: #ea7c69;
+  padding: 16px;
+  border-radius: 10px;
+  margin-top: 18px;
+}
+
+.home-img3 {
+  background-color: #ea7c69;
+  padding: 16px;
+  border-radius: 10px;
+  margin-top: -9px;
 }
 
 .pattern {
@@ -305,12 +323,12 @@ div.select:hover {
 .card {
   width: 192px;
   height: 226px;
-  background-color: #1f1d2b;
-  margin-top: 68px;
-  margin-bottom: 10px;
-  border-radius: 15px;
   position: relative;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 15px;
   cursor: pointer;
+  background-color: #1f1d2b;
 }
 
 .card > img {
@@ -355,8 +373,10 @@ div.select:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 43px;
+  margin-top: 20px;
+  padding-top: 50px;
   overflow: auto;
-  height: calc(100vh - 236px);
+  height: calc(100vh - 250px);
   mask-image: linear-gradient(to top, transparent, black),
     linear-gradient(to left, transparent 17px, black 17px);
   mask-size: 100% 20000px;
